@@ -1,11 +1,276 @@
 [
     {
         "routineName": "Featured Routine 2",
-        "cycleLength": 5,
+        "cycleLength": 6,
         "startingDay": "21/04/2021",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mauris est, luctus eget lorem quis, imperdiet scelerisque mauris.",
         "image": "routine",
         "workouts": [
+            {
+                "workoutName": "Sample 1",
+                "category": "Pushing Workouts",
+                "bodyParts": [
+                    "Chest",
+                    "Triceps",
+                    "Shoulders"
+                ],
+                "exercises": [
+                    {
+                        "exerciseName": "Standing Shoulder Press",
+                        "category": "Weightlifting",
+                        "bodyParts": [
+                            "Shoulders"
+                        ],
+                        "sets": 4,
+                        "reps": 10,
+                        "time": 40,
+                        "description": [
+                            "A pushing workout that targets your shoulders.",
+                            "Press the bar vertically from your upper chest."
+                        ],
+                        "image": [
+                            "exercise1",
+                            "exercise2"
+                        ]
+                    },
+                    {
+                        "exerciseName": "Dumbell Chest Press",
+                        "category": "Weightlifting",
+                        "bodyParts": [
+                            "Chest",
+                            "Shoulders",
+                            "Triceps"
+                        ],
+                        "sets": 4,
+                        "reps": 10,
+                        "time": 60,
+                        "description": [
+                            "A pushing workout that targets your upper chest and shoulders.",
+                            "Press the dumbell from your chest until your arms are close to locking and repeat."
+                        ],
+                        "image": [
+                            "exercise1",
+                            "exercise2"
+                        ]
+                    },
+                    {
+                        "exerciseName": "Face Pulls",
+                        "category": "Resistance",
+                        "bodyParts": [
+                            "Shoulders",
+                            "Rhomboids"
+                        ],
+                        "sets": 3,
+                        "reps": 15,
+                        "time": 60,
+                        "description": [
+                            "A workout to work on shoulder and scapula stability.",
+                            "Pull the cables towards your ears, whilst keeping your elbows away from your head."
+                        ],
+                        "image": [
+                            "exercise1",
+                            "exercise2"
+                        ]
+                    },
+                    {
+                        "exerciseName": "Tricep Dips",
+                        "category": "Callisthenics",
+                        "bodyParts": [
+                            "Chest",
+                            "Triceps"
+                        ],
+                        "sets": 4,
+                        "reps": 12,
+                        "time": 45,
+                        "description": [
+                            "A callisthenics workout that targets your chest and triceps.",
+                            "Push your body up vertically away from the dipping station."
+                        ],
+                        "image": [
+                            "exercise1",
+                            "exercise2"
+                        ]
+                    },
+                    {
+                        "exerciseName": "Lateral Raises",
+                        "category": "Weightlifting",
+                        "bodyParts": [
+                            "Shoulders"
+                        ],
+                        "sets": 3,
+                        "reps": 12,
+                        "time": 40,
+                        "description":[
+                            "A workout for your medial deltoids.",
+                            "Raise the dumbells from your hips until you are in a T-pose."
+                        ],
+                        "image": [
+                            "exercise1",
+                            "exercise2"
+                        ]
+                    },
+                    {
+                        "exerciseName": "Pushdowns and Pullovers",
+                        "category": "Resistance",
+                        "bodyParts": [
+                            "Triceps"
+                        ],
+                        "sets": 3,
+                        "reps": 16,
+                        "time": 100,
+                        "description": [
+                            "Pull the cable down towards your outer thighs.",
+                            "Pull the cable out above your head."
+                        ],
+                        "image": [
+                            "exercise1",
+                            "exercise2"
+                        ]
+                    }
+                ]
+            },
+            {
+                "workoutName": "Sample 2",
+                "category": "Pushing Workouts",
+                "bodyParts": [
+                    "Chest",
+                    "Triceps",
+                    "Shoulders"
+                ],
+                "exercises": [
+                    {
+                        "exerciseName": "Incline Chest Press",
+                        "category": "Weightlifting",
+                        "bodyParts": [
+                            "Chest",
+                            "Shoulders"
+                        ],
+                        "sets": 4,
+                        "reps": 12,
+                        "time": 60,
+                        "description": [
+                            "A pushing workout that targets your upper chest and shoulders.",
+                            "Press the bar from your chest until your arms are close to locking and repeat."
+                        ],
+                        "image": [
+                            "exercise1",
+                            "exercise2"
+                        ]
+                    },
+                    {
+                        "exerciseName": "Standing Shoulder Press",
+                        "category": "Weightlifting",
+                        "bodyParts": [
+                            "Shoulders"
+                        ],
+                        "sets": 4,
+                        "reps": 10,
+                        "time": 40,
+                        "description": [
+                            "A pushing workout that targets your shoulders.",
+                            "Press the bar vertically from your upper chest."
+                        ],
+                        "image": [
+                            "exercise1",
+                            "exercise2"
+                        ]
+                    },
+                    {
+                        "exerciseName": "Dumbell Chest Press",
+                        "category": "Weightlifting",
+                        "bodyParts": [
+                            "Chest",
+                            "Shoulders",
+                            "Triceps"
+                        ],
+                        "sets": 4,
+                        "reps": 10,
+                        "time": 60,
+                        "description": [
+                            "A pushing workout that targets your upper chest and shoulders.",
+                            "Press the dumbell from your chest until your arms are close to locking and repeat."
+                        ],
+                        "image": [
+                            "exercise1",
+                            "exercise2"
+                        ]
+                    },
+                    {
+                        "exerciseName": "Face Pulls",
+                        "category": "Resistance",
+                        "bodyParts": [
+                            "Shoulders",
+                            "Rhomboids"
+                        ],
+                        "sets": 3,
+                        "reps": 15,
+                        "time": 60,
+                        "description": [
+                            "A workout to work on shoulder and scapula stability.",
+                            "Pull the cables towards your ears, whilst keeping your elbows away from your head."
+                        ],
+                        "image": [
+                            "exercise1",
+                            "exercise2"
+                        ]
+                    },
+                    {
+                        "exerciseName": "Tricep Dips",
+                        "category": "Callisthenics",
+                        "bodyParts": [
+                            "Chest",
+                            "Triceps"
+                        ],
+                        "sets": 4,
+                        "reps": 12,
+                        "time": 45,
+                        "description": [
+                            "A callisthenics workout that targets your chest and triceps.",
+                            "Push your body up vertically away from the dipping station."
+                        ],
+                        "image": [
+                            "exercise1",
+                            "exercise2"
+                        ]
+                    },
+                    {
+                        "exerciseName": "Lateral Raises",
+                        "category": "Weightlifting",
+                        "bodyParts": [
+                            "Shoulders"
+                        ],
+                        "sets": 3,
+                        "reps": 12,
+                        "time": 40,
+                        "description":[
+                            "A workout for your medial deltoids.",
+                            "Raise the dumbells from your hips until you are in a T-pose."
+                        ],
+                        "image": [
+                            "exercise1",
+                            "exercise2"
+                        ]
+                    },
+                    {
+                        "exerciseName": "Pushdowns and Pullovers",
+                        "category": "Resistance",
+                        "bodyParts": [
+                            "Triceps"
+                        ],
+                        "sets": 3,
+                        "reps": 16,
+                        "time": 100,
+                        "description": [
+                            "Pull the cable down towards your outer thighs.",
+                            "Pull the cable out above your head."
+                        ],
+                        "image": [
+                            "exercise1",
+                            "exercise2"
+                        ]
+                    }
+                ]
+            },
             {
                 "workoutName": "Push",
                 "category": "Pushing Workouts",
@@ -919,11 +1184,153 @@
     },
     {
         "routineName": "Featured Routine 4",
-        "cycleLength": 6,
+        "cycleLength": 5,
         "startingDay": "21/04/2021",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mauris est, luctus eget lorem quis, imperdiet scelerisque mauris.",
         "image": "routine",
         "workouts": [
+            {
+                "workoutName": "Sample 1",
+                "category": "Pushing Workouts",
+                "bodyParts": [
+                    "Chest",
+                    "Triceps",
+                    "Shoulders"
+                ],
+                "exercises": [
+                    {
+                        "exerciseName": "Incline Chest Press",
+                        "category": "Weightlifting",
+                        "bodyParts": [
+                            "Chest",
+                            "Shoulders"
+                        ],
+                        "sets": 4,
+                        "reps": 12,
+                        "time": 60,
+                        "description": [
+                            "A pushing workout that targets your upper chest and shoulders.",
+                            "Press the bar from your chest until your arms are close to locking and repeat."
+                        ],
+                        "image": [
+                            "exercise1",
+                            "exercise2"
+                        ]
+                    },
+                    {
+                        "exerciseName": "Standing Shoulder Press",
+                        "category": "Weightlifting",
+                        "bodyParts": [
+                            "Shoulders"
+                        ],
+                        "sets": 4,
+                        "reps": 10,
+                        "time": 40,
+                        "description": [
+                            "A pushing workout that targets your shoulders.",
+                            "Press the bar vertically from your upper chest."
+                        ],
+                        "image": [
+                            "exercise1",
+                            "exercise2"
+                        ]
+                    },
+                    {
+                        "exerciseName": "Dumbell Chest Press",
+                        "category": "Weightlifting",
+                        "bodyParts": [
+                            "Chest",
+                            "Shoulders",
+                            "Triceps"
+                        ],
+                        "sets": 4,
+                        "reps": 10,
+                        "time": 60,
+                        "description": [
+                            "A pushing workout that targets your upper chest and shoulders.",
+                            "Press the dumbell from your chest until your arms are close to locking and repeat."
+                        ],
+                        "image": [
+                            "exercise1",
+                            "exercise2"
+                        ]
+                    },
+                    {
+                        "exerciseName": "Face Pulls",
+                        "category": "Resistance",
+                        "bodyParts": [
+                            "Shoulders",
+                            "Rhomboids"
+                        ],
+                        "sets": 3,
+                        "reps": 15,
+                        "time": 60,
+                        "description": [
+                            "A workout to work on shoulder and scapula stability.",
+                            "Pull the cables towards your ears, whilst keeping your elbows away from your head."
+                        ],
+                        "image": [
+                            "exercise1",
+                            "exercise2"
+                        ]
+                    },
+                    {
+                        "exerciseName": "Tricep Dips",
+                        "category": "Callisthenics",
+                        "bodyParts": [
+                            "Chest",
+                            "Triceps"
+                        ],
+                        "sets": 4,
+                        "reps": 12,
+                        "time": 45,
+                        "description": [
+                            "A callisthenics workout that targets your chest and triceps.",
+                            "Push your body up vertically away from the dipping station."
+                        ],
+                        "image": [
+                            "exercise1",
+                            "exercise2"
+                        ]
+                    },
+                    {
+                        "exerciseName": "Lateral Raises",
+                        "category": "Weightlifting",
+                        "bodyParts": [
+                            "Shoulders"
+                        ],
+                        "sets": 3,
+                        "reps": 12,
+                        "time": 40,
+                        "description":[
+                            "A workout for your medial deltoids.",
+                            "Raise the dumbells from your hips until you are in a T-pose."
+                        ],
+                        "image": [
+                            "exercise1",
+                            "exercise2"
+                        ]
+                    },
+                    {
+                        "exerciseName": "Pushdowns and Pullovers",
+                        "category": "Resistance",
+                        "bodyParts": [
+                            "Triceps"
+                        ],
+                        "sets": 3,
+                        "reps": 16,
+                        "time": 100,
+                        "description": [
+                            "Pull the cable down towards your outer thighs.",
+                            "Pull the cable out above your head."
+                        ],
+                        "image": [
+                            "exercise1",
+                            "exercise2"
+                        ]
+                    }
+                ]
+            },
             {
                 "workoutName": "Push",
                 "category": "Pushing Workouts",
@@ -1378,11 +1785,437 @@
     },
     {
         "routineName": "Featured Routine 5",
-        "cycleLength": 3,
+        "cycleLength": 7,
         "startingDay": "21/04/2021",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mauris est, luctus eget lorem quis, imperdiet scelerisque mauris.",
         "image": "routine",
         "workouts": [
+            {
+                "workoutName": "Sample 1",
+                "category": "Pushing Workouts",
+                "bodyParts": [
+                    "Chest",
+                    "Triceps",
+                    "Shoulders"
+                ],
+                "exercises": [
+                    {
+                        "exerciseName": "Incline Chest Press",
+                        "category": "Weightlifting",
+                        "bodyParts": [
+                            "Chest",
+                            "Shoulders"
+                        ],
+                        "sets": 4,
+                        "reps": 12,
+                        "time": 60,
+                        "description": [
+                            "A pushing workout that targets your upper chest and shoulders.",
+                            "Press the bar from your chest until your arms are close to locking and repeat."
+                        ],
+                        "image": [
+                            "exercise1",
+                            "exercise2"
+                        ]
+                    },
+                    {
+                        "exerciseName": "Standing Shoulder Press",
+                        "category": "Weightlifting",
+                        "bodyParts": [
+                            "Shoulders"
+                        ],
+                        "sets": 4,
+                        "reps": 10,
+                        "time": 40,
+                        "description": [
+                            "A pushing workout that targets your shoulders.",
+                            "Press the bar vertically from your upper chest."
+                        ],
+                        "image": [
+                            "exercise1",
+                            "exercise2"
+                        ]
+                    },
+                    {
+                        "exerciseName": "Dumbell Chest Press",
+                        "category": "Weightlifting",
+                        "bodyParts": [
+                            "Chest",
+                            "Shoulders",
+                            "Triceps"
+                        ],
+                        "sets": 4,
+                        "reps": 10,
+                        "time": 60,
+                        "description": [
+                            "A pushing workout that targets your upper chest and shoulders.",
+                            "Press the dumbell from your chest until your arms are close to locking and repeat."
+                        ],
+                        "image": [
+                            "exercise1",
+                            "exercise2"
+                        ]
+                    },
+                    {
+                        "exerciseName": "Face Pulls",
+                        "category": "Resistance",
+                        "bodyParts": [
+                            "Shoulders",
+                            "Rhomboids"
+                        ],
+                        "sets": 3,
+                        "reps": 15,
+                        "time": 60,
+                        "description": [
+                            "A workout to work on shoulder and scapula stability.",
+                            "Pull the cables towards your ears, whilst keeping your elbows away from your head."
+                        ],
+                        "image": [
+                            "exercise1",
+                            "exercise2"
+                        ]
+                    },
+                    {
+                        "exerciseName": "Tricep Dips",
+                        "category": "Callisthenics",
+                        "bodyParts": [
+                            "Chest",
+                            "Triceps"
+                        ],
+                        "sets": 4,
+                        "reps": 12,
+                        "time": 45,
+                        "description": [
+                            "A callisthenics workout that targets your chest and triceps.",
+                            "Push your body up vertically away from the dipping station."
+                        ],
+                        "image": [
+                            "exercise1",
+                            "exercise2"
+                        ]
+                    },
+                    {
+                        "exerciseName": "Lateral Raises",
+                        "category": "Weightlifting",
+                        "bodyParts": [
+                            "Shoulders"
+                        ],
+                        "sets": 3,
+                        "reps": 12,
+                        "time": 40,
+                        "description":[
+                            "A workout for your medial deltoids.",
+                            "Raise the dumbells from your hips until you are in a T-pose."
+                        ],
+                        "image": [
+                            "exercise1",
+                            "exercise2"
+                        ]
+                    },
+                    {
+                        "exerciseName": "Pushdowns and Pullovers",
+                        "category": "Resistance",
+                        "bodyParts": [
+                            "Triceps"
+                        ],
+                        "sets": 3,
+                        "reps": 16,
+                        "time": 100,
+                        "description": [
+                            "Pull the cable down towards your outer thighs.",
+                            "Pull the cable out above your head."
+                        ],
+                        "image": [
+                            "exercise1",
+                            "exercise2"
+                        ]
+                    }
+                ]
+            },
+            {
+                "workoutName": "Sample 2",
+                "category": "Pushing Workouts",
+                "bodyParts": [
+                    "Chest",
+                    "Triceps",
+                    "Shoulders"
+                ],
+                "exercises": [
+                    {
+                        "exerciseName": "Incline Chest Press",
+                        "category": "Weightlifting",
+                        "bodyParts": [
+                            "Chest",
+                            "Shoulders"
+                        ],
+                        "sets": 4,
+                        "reps": 12,
+                        "time": 60,
+                        "description": [
+                            "A pushing workout that targets your upper chest and shoulders.",
+                            "Press the bar from your chest until your arms are close to locking and repeat."
+                        ],
+                        "image": [
+                            "exercise1",
+                            "exercise2"
+                        ]
+                    },
+                    {
+                        "exerciseName": "Standing Shoulder Press",
+                        "category": "Weightlifting",
+                        "bodyParts": [
+                            "Shoulders"
+                        ],
+                        "sets": 4,
+                        "reps": 10,
+                        "time": 40,
+                        "description": [
+                            "A pushing workout that targets your shoulders.",
+                            "Press the bar vertically from your upper chest."
+                        ],
+                        "image": [
+                            "exercise1",
+                            "exercise2"
+                        ]
+                    },
+                    {
+                        "exerciseName": "Dumbell Chest Press",
+                        "category": "Weightlifting",
+                        "bodyParts": [
+                            "Chest",
+                            "Shoulders",
+                            "Triceps"
+                        ],
+                        "sets": 4,
+                        "reps": 10,
+                        "time": 60,
+                        "description": [
+                            "A pushing workout that targets your upper chest and shoulders.",
+                            "Press the dumbell from your chest until your arms are close to locking and repeat."
+                        ],
+                        "image": [
+                            "exercise1",
+                            "exercise2"
+                        ]
+                    },
+                    {
+                        "exerciseName": "Face Pulls",
+                        "category": "Resistance",
+                        "bodyParts": [
+                            "Shoulders",
+                            "Rhomboids"
+                        ],
+                        "sets": 3,
+                        "reps": 15,
+                        "time": 60,
+                        "description": [
+                            "A workout to work on shoulder and scapula stability.",
+                            "Pull the cables towards your ears, whilst keeping your elbows away from your head."
+                        ],
+                        "image": [
+                            "exercise1",
+                            "exercise2"
+                        ]
+                    },
+                    {
+                        "exerciseName": "Tricep Dips",
+                        "category": "Callisthenics",
+                        "bodyParts": [
+                            "Chest",
+                            "Triceps"
+                        ],
+                        "sets": 4,
+                        "reps": 12,
+                        "time": 45,
+                        "description": [
+                            "A callisthenics workout that targets your chest and triceps.",
+                            "Push your body up vertically away from the dipping station."
+                        ],
+                        "image": [
+                            "exercise1",
+                            "exercise2"
+                        ]
+                    },
+                    {
+                        "exerciseName": "Lateral Raises",
+                        "category": "Weightlifting",
+                        "bodyParts": [
+                            "Shoulders"
+                        ],
+                        "sets": 3,
+                        "reps": 12,
+                        "time": 40,
+                        "description":[
+                            "A workout for your medial deltoids.",
+                            "Raise the dumbells from your hips until you are in a T-pose."
+                        ],
+                        "image": [
+                            "exercise1",
+                            "exercise2"
+                        ]
+                    },
+                    {
+                        "exerciseName": "Pushdowns and Pullovers",
+                        "category": "Resistance",
+                        "bodyParts": [
+                            "Triceps"
+                        ],
+                        "sets": 3,
+                        "reps": 16,
+                        "time": 100,
+                        "description": [
+                            "Pull the cable down towards your outer thighs.",
+                            "Pull the cable out above your head."
+                        ],
+                        "image": [
+                            "exercise1",
+                            "exercise2"
+                        ]
+                    }
+                ]
+            },
+            {
+                "workoutName": "Sample 3",
+                "category": "Pushing Workouts",
+                "bodyParts": [
+                    "Chest",
+                    "Triceps",
+                    "Shoulders"
+                ],
+                "exercises": [
+                    {
+                        "exerciseName": "Incline Chest Press",
+                        "category": "Weightlifting",
+                        "bodyParts": [
+                            "Chest",
+                            "Shoulders"
+                        ],
+                        "sets": 4,
+                        "reps": 12,
+                        "time": 60,
+                        "description": [
+                            "A pushing workout that targets your upper chest and shoulders.",
+                            "Press the bar from your chest until your arms are close to locking and repeat."
+                        ],
+                        "image": [
+                            "exercise1",
+                            "exercise2"
+                        ]
+                    },
+                    {
+                        "exerciseName": "Standing Shoulder Press",
+                        "category": "Weightlifting",
+                        "bodyParts": [
+                            "Shoulders"
+                        ],
+                        "sets": 4,
+                        "reps": 10,
+                        "time": 40,
+                        "description": [
+                            "A pushing workout that targets your shoulders.",
+                            "Press the bar vertically from your upper chest."
+                        ],
+                        "image": [
+                            "exercise1",
+                            "exercise2"
+                        ]
+                    },
+                    {
+                        "exerciseName": "Dumbell Chest Press",
+                        "category": "Weightlifting",
+                        "bodyParts": [
+                            "Chest",
+                            "Shoulders",
+                            "Triceps"
+                        ],
+                        "sets": 4,
+                        "reps": 10,
+                        "time": 60,
+                        "description": [
+                            "A pushing workout that targets your upper chest and shoulders.",
+                            "Press the dumbell from your chest until your arms are close to locking and repeat."
+                        ],
+                        "image": [
+                            "exercise1",
+                            "exercise2"
+                        ]
+                    },
+                    {
+                        "exerciseName": "Face Pulls",
+                        "category": "Resistance",
+                        "bodyParts": [
+                            "Shoulders",
+                            "Rhomboids"
+                        ],
+                        "sets": 3,
+                        "reps": 15,
+                        "time": 60,
+                        "description": [
+                            "A workout to work on shoulder and scapula stability.",
+                            "Pull the cables towards your ears, whilst keeping your elbows away from your head."
+                        ],
+                        "image": [
+                            "exercise1",
+                            "exercise2"
+                        ]
+                    },
+                    {
+                        "exerciseName": "Tricep Dips",
+                        "category": "Callisthenics",
+                        "bodyParts": [
+                            "Chest",
+                            "Triceps"
+                        ],
+                        "sets": 4,
+                        "reps": 12,
+                        "time": 45,
+                        "description": [
+                            "A callisthenics workout that targets your chest and triceps.",
+                            "Push your body up vertically away from the dipping station."
+                        ],
+                        "image": [
+                            "exercise1",
+                            "exercise2"
+                        ]
+                    },
+                    {
+                        "exerciseName": "Lateral Raises",
+                        "category": "Weightlifting",
+                        "bodyParts": [
+                            "Shoulders"
+                        ],
+                        "sets": 3,
+                        "reps": 12,
+                        "time": 40,
+                        "description":[
+                            "A workout for your medial deltoids.",
+                            "Raise the dumbells from your hips until you are in a T-pose."
+                        ],
+                        "image": [
+                            "exercise1",
+                            "exercise2"
+                        ]
+                    },
+                    {
+                        "exerciseName": "Pushdowns and Pullovers",
+                        "category": "Resistance",
+                        "bodyParts": [
+                            "Triceps"
+                        ],
+                        "sets": 3,
+                        "reps": 16,
+                        "time": 100,
+                        "description": [
+                            "Pull the cable down towards your outer thighs.",
+                            "Pull the cable out above your head."
+                        ],
+                        "image": [
+                            "exercise1",
+                            "exercise2"
+                        ]
+                    }
+                ]
+            },
             {
                 "workoutName": "Push",
                 "category": "Pushing Workouts",
